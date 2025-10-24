@@ -1,0 +1,8 @@
+Flask==3.1.2
+playwright==1.55.0
+gymnasium==1.2.1
+numpy==2.3.4
+pandas==2.3.3
+stable-baselines3==2.7.0
+pyyaml==6.0.3
+uvicorn==0.38.0

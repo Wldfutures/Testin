@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Signup - Step 1</title>
+    <script src="/static/main.js"></script>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>Start account creation</p>
+    <form action="/user_info">
+      <input type="hidden" name="invite" value="{{ invite }}" />
+      <button type="submit">Create account</button>
+    </form>
+  </body>
+</html>

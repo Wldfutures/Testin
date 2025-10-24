@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Signup - User Info</title>
+    <script src="/static/main.js"></script>
+  </head>
+  <body>
+    <h2>User Info</h2>
+    <form id="userInfoForm">
+      <label>Name: <input id="name" name="name" /> <span style="color:gray">[4-20 chars]</span></label><br/>
+      <label>Email: <input id="email" name="email" /> <span style="color:gray">[must contain @]</span></label><br/>
+      <label>Display name: <input id="display_name" name="display_name" /> <span style="color:gray">[must be unique]</span></label>
+      <span id="display_name_status"></span>
+      <br/>
+      <!-- Honeypot hidden field -->
+      <input type="text" name="middle_initial" id="middle_initial" style="display:none" />
+
+      <button id="toCreds" type="button">Next</button>
+    </form>
+  </body>
+</html>
